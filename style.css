@@ -1,0 +1,106 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header {
+    background-color: slategray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 20px
+}
+#searchbar {
+    width: 500px;
+    height: 20px;
+    padding: 5px;
+    border: 2px black solid;
+}
+.text {
+    font-size: 50px;
+}
+#btn {
+    position: relative;
+    right: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 1px black solid;
+    box-shadow: 3px 3px 1px black;
+}
+#container {
+    width: 1034px;
+    margin: 0 auto;
+    display: flex;
+}
+#left {
+    flex: 2;
+}
+#right {
+    flex: 1;
+    border: 3px black solid;
+    height: 200px;
+    margin-top: 20px;
+    display: flexbox;
+    justify-content: space-around;
+}
+#right > * {
+    margin-left: 25px;
+}
+.def {
+    display: inline-block;
+}
+#topleft, #botleft {
+    border: 3px black solid;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#topleftleft, #botleftleft {
+    flex: 1;
+    margin: auto;
+}
+#topleftright, #botleftright {
+    flex: 2;
+    margin: auto 10px auto auto;
+}
+#topleftleft > *, #botleftleft > * {
+    margin: 10px 0 10px 10px;
+}
+.def, .type {
+    font-size: 30px;
+}
+.type {
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+    font-style: italic;
+}
+.plur {
+    position: relative;
+    font-size: 25px;
+    bottom: 25px;
+    right: 5px;
+}
+.buttn {
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+    padding: 10px 25px;
+    font-size: 15px;
+    box-shadow: 3px 3px 1px black;
+    border: 2px black solid;
+    background-color: rgb(209, 209, 0);
+    font-weight: bolder;
+}
+#bttn {
+    padding: 5px 75px;
+    border: 2px black solid;
+    box-shadow: 4px 4px 1px black;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(39, 82, 39);
+}
